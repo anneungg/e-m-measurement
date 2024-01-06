@@ -27,8 +27,8 @@ def main():
 
     V = st.number_input("가속전압 (V)을 입력하세요:", value=0.0)
     I_H = st.number_input("헬름홀츠 코일에 걸린 전류 (A)를 입력하세요:", value=0.0)
-    R = st.number_input("코일의 반경 (m)을 입력하세요:", value=0.0)
-    r = st.number_input("전자의 원형 궤도 반지름 값 (m)을 입력하세요:", value=0.0)
+    R = st.number_input("코일의 반경 (mm)을 입력하세요:", value=0.0)
+    r = st.number_input("전자의 원형 궤도 반지름 값 (mm)을 입력하세요:", value=0.0)
     V_H = st.number_input("헬름홀츠 코일에 걸린 전압 (V)를 입력하세요:", value=0.0)
     N = st.number_input("헬름홀츠 코일의 감긴 수(N)을 입력하세요(코일 2개면):", value=0.0)
 
@@ -77,8 +77,8 @@ def main():
 
     V = st.number_input("가속전압 (V)을 입력하세요:", value=0.0)
     I_H = st.number_input("헬름홀츠 코일에 걸린 전류 (A)를 입력하세요:", value=0.0)
-    R = st.number_input("코일의 반경 (m)을 입력하세요:", value=0.0)
-    r = st.number_input("전자의 원형 궤도 반지름 값 (m)을 입력하세요:", value=0.0)
+    R = st.number_input("코일의 반경 (mm)을 입력하세요:", value=0.0)
+    r = st.number_input("전자의 원형 궤도 반지름 값 (mm)을 입력하세요:", value=0.0)
     V_H = st.number_input("헬름홀츠 코일에 걸린 전압 (V)를 입력하세요:", value=0.0)
     N = st.number_input("헬름홀츠 코일의 감긴 수(N)을 입력하세요(코일 2개면):", value=0.0)
 
